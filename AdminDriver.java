@@ -210,8 +210,8 @@ public class AdminDriver extends Driver {
         }
       } catch (InputMismatchException e) {
         // Menangani kesalahan input
-        System.out.println("Mohon Hanya Menginput ANGKA yang tertera\n");
-        System.out.println("+===============================================+");
+        System.out.println("Mohon Hanya Menginput ANGKA yang tertera");
+        System.out.println("+===============================================+\n");
         scanner.nextLine(); // Membersihkan buffer input
       }
     } while (pilihan1 != 6);
